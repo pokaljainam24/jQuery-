@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./colorful-egg-sits-nest-with-sun-shining-it_1340-29320.jpg);
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background-image: url(./colorful-egg-sits-nest-with-sun-shining-it_1340-29320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(4, 0, 247, 0.934);
+    width: 300px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="button"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+
+  .error {
+    background-color: aliceblue;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
